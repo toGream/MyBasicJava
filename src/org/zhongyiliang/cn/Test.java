@@ -1,7 +1,7 @@
 package org.zhongyiliang.cn;
 
 /**
- * 测试类的继承
+ * 类的继承
  * @author Administrator
  *
  */

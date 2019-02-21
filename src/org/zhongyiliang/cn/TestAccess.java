@@ -1,7 +1,7 @@
 package org.zhongyiliang.cn;
 
 /**
- * 测试类的访问控制
+ * 类的访问控制
  * @author Administrator
  *
  */
@@ -21,7 +21,8 @@ class T {
 class S extends T{
 	public void f(){
 		T t = new T();
-		t.n_friendly = 10;
+//		t.n_private = 10;//不能访问
+		t.n_friendly = 10;//可以访问
 		System.out.println(t.n_friendly);
 	}
 }

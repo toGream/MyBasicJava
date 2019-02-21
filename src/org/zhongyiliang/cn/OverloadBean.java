@@ -1,11 +1,11 @@
 package org.zhongyiliang.cn;
 
 /**
- * 测试方法重载
+ * 方法重载
  * @author Administrator
  *
  */
-public class OverrideBean {
+public class OverloadBean {
 	void info() {
 		System.out.println("My name is tom");
 	}
@@ -27,7 +27,7 @@ public class OverrideBean {
 	}
 	
 	public static void main(String[] args) {
-		OverrideBean p = new OverrideBean();
+		OverloadBean p = new OverloadBean();
 		p.info();
 		p.info("jerry");
 		p.max(2.1f, 3.0f);
